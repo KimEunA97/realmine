@@ -1,0 +1,23 @@
+
+.blink {
+
+
+  
+  animation-name: blink-effect;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: step-end; 
+
+
+}
+
+@keyframes blink-effect {
+
+  50% {
+  opacity: 0;
+  }
+
+
+
+}
+

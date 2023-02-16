@@ -1,0 +1,31 @@
+    /* 슬라이딩 + 프레임 조절 */
+    .slide {
+      animation: 1s slideframe ease-out;
+    }
+
+    /* 프레임 조절 */
+    @keyframes slideframe {
+      0% {
+        opacity: 0;
+        /*불투명 */
+        transform: translateY(70%)
+          /*축 변형*/
+      }
+
+      70% {
+        opacity: 1;
+        /*불투명 */
+        transform: translateY(0%)
+      }
+
+      100% {
+        opacity: 1;
+        /*불투명 */
+        transform: translateY(0%)
+      }
+    }
+
+
+    
+
+

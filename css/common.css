@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+@font-face {
+  font-family: 'PuradakGentleGothicR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.1/PuradakGentleGothicR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+
+  margin: 0;
+}
+
+/* 그라데이션 배경색이랑 폰트 지정 */
+.wrap {
+
+  display: inline-flex;
+  font-family: 'PuradakGentleGothicR';
+  background-image: linear-gradient(180deg, skyblue, rgba(255, 255, 0, 0.568));
+  min-height: 100vh;
+  min-width: 100vw;
+
+}
